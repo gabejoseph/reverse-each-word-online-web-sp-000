@@ -5,10 +5,10 @@ def reverse_each_word(x)
   end
 end
 
-def reverse_each_word(x)
- new_array =  x.split(" ").collect do |y|
-    y.reverse
-  end
+# def reverse_each_word(x)
+# new_array =  x.split(" ").collect do |y|
+#     y.reverse
+#   end
   
-  new_array.join(" ")
-end
+#   new_array.join(" ")
+# end
